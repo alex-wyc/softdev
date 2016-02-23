@@ -15,7 +15,6 @@ function draw_circle(ctx, x, y, r) {
 }
 
 var frame = function() {
-    console.log(r);
     if (r == 0) {
         d = 1;
     }
