@@ -5,9 +5,7 @@ var svgNSID = "http://www.w3.org/2000/svg";
 
 var dr = 1;
 
-var logo = new Image();
-var x = 250, y = 250, dx = 3, dy = 2;
-logo.src = 'dojocat.jpg'
+var dx = 3, dy = 2;
 
 var intervalID;
 
@@ -43,7 +41,7 @@ var grow = function() {
 var bounce = function() {
     // initial setup
     var c = document.createElementNS(svgNSID, 'image');
-    c.setAttributeNS('http://www.w3.org/1999/xlink', 'href', 'dojocat.jpg');
+    c.setAttributeNS('http://www.w3.org/1999/xlink', 'href', 'dojocat.png');
     c.setAttribute('height', 100);
     c.setAttribute('width', 100);
     c.setAttribute('x', 10);
