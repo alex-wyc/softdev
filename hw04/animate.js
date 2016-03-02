@@ -25,7 +25,7 @@ var grow = function() {
 
     var animate = function() {
         // grab the element
-        var c = document.getElementsByTagName("circle")[0];
+        c = document.getElementsByTagName("circle")[0];
         var radius = parseInt(c.getAttribute("r"));
 
         // growing or shrinking
@@ -55,7 +55,7 @@ var bounce = function() {
 
     var move = function() {
         // grab the element
-        var c = document.getElementsByTagName("image")[0];
+        c = document.getElementsByTagName("image")[0];
         var x = parseInt(c.getAttribute('x'));
         var y = parseInt(c.getAttribute('y'));
 
