@@ -1,0 +1,62 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>I'm serious as a heart attack</h1>
+        <p>Now that we know who you are, I know who I am. I'm not a mistake! It all
+        makes sense! In a comic, you know how you can tell who the arch-villain's going
+        to be? He's the exact opposite of the hero. And most times they're friends, like
+        you and me! I should've known way back when... You know why, David? Because of
+        the kids. They called me Mr Glass. </p>
+
+        <p>Gag ipsum dolar sit amet facebook dog lose weekend. Clinton grey cereal le
+        friend derp love dad sit t-rex star wars fap. Gentlemen fuck that bitch back
+        money good guy humor true story alcohol one does not simply. Geek party iron man
+        i'm watching u genius gasp mother of god ba dumm tss. Nyan cat all the things i
+        lied no students nerd on in amnesia sex win. Poker face cool i know that feel
+        monocle dolar meme cuteness overload gag le me. Phone anonymous i see what you
+        did there not bad drunk cuteness overload loki asians. Ipsum y u no oboma fuck
+        yeah amet dead venenatis boobs. Peter griffin if you know what i mean cellphone
+        asian homer kitchen woman fun haters gonna hate michelle freddie mercury.
+        Rebecca Black unsave friendzoned thor motherfucker le derp 9000 genius varius
+        joke. For troll bra avenger true love cookie monster oh god why wodka search on.
+        Admire no bad cereal guy.</p>
+
+        <p>Bacon ipsum dolor amet bresaola turducken tenderloin sausage t-bone, picanha
+        capicola porchetta cow pancetta doner. Pancetta pork belly drumstick turkey
+        spare ribs salami flank bacon bresaola tail shank. Shankle jowl turducken cow.
+        Turducken drumstick fatback, sirloin turkey cupim pancetta sausage tenderloin
+        salami corned beef ham hock prosciutto tongue pork belly. Jowl boudin meatloaf
+        biltong hamburger short ribs brisket. Cow ham hock leberkas sausage capicola,
+        tongue shank pork swine turducken sirloin.</p>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+        <script>
+//var paragraphs = document.getElementsByTagName('p');
+//for (var a = 0 ; a < paragraphs.length ; a++) {
+//    var paragraph = paragraphs.item(a);
+//    paragraph.style.setProperty('color', 'white', null);
+//}
+var seizure = function() {
+    d3.selectAll('p').style('color', function() {
+        return "hsl(" + Math.random() * 360 + ",100%, 50%)";
+    });
+    //d3.select('body').style('background-color', function() {
+    //    var i = Math.random() * 2;
+    //    if (i > 1) {
+    //        return 'black';
+    //    }
+    //    else {
+    //        return 'white';
+    //    }
+    //});
+    //window.requestAnimationFrame(seizure);
+};
+
+seizure();
+
+d3.selectAll('h1').style('color', 'white');
+d3.select("body").style('background-color', 'black');
+        </script>
+    </body>
+</html>

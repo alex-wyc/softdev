@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+.chart {
+    background-color: steelblue;
+    color: white;
+}
+
+#chhhhhart {
+    border: solid;
+    width: 500px;
+}
+
+.bar {
+    text-align: right;
+    color: white;
+    border: solid;
+    border-color: white;
+    background: lightblue;
+    background-color: steelblue;
+}
+        </style>
+    </head>
+    <body>
+        <p><span class='chart'>&nbsp;&nbsp;&nbsp;4</span></p>
+        <p><span class='chart'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8</span></p>
+        <p><span class='chart'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15</span></p>
+        <p><span class='chart'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16</span></p>
+        <p><span class='chart'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23</span></p>
+        <p><span class='chart'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;42</span></p>
+
+        <div id='chhhhhart'>
+            <div class='bar' style="width:10%;">1</div>
+            <div class='bar' style="width:20%;">2</div>
+            <div class='bar' style="width:60%;">6</div>
+            <div class='bar' style="width:40%;">4</div>
+            <div class='bar' style="width:90%;">9</div>
+        </div>
+    </body>
+</html>
