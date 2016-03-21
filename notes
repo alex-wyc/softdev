@@ -1,0 +1,93 @@
+term2
+
+Aim: Canvassing the nabe with DOM and HTML5
+
+a). what am I wearing... lol....... same thing i always wear
+
+b). what is a cd, is it edible?
+
+c). the internet is still in its infant dail-up, java applet age
+    -> 16,000 users in the mid-nighties 
+    -> painfully slow connections
+
+d). blocky, hard-framed websites, static, non-moving
+
+
+HYPERLINK IS THE CORNERSTONE OF THE INTERNET
+
+IE v. Netscape
+
+Netscape -> JavaScript
+IE -> JScript
+
+Windows tried to bundle IE with Win95
+
+Late 90L Enter to DOM
+
+W3C (World World Web Consortion) forms, introduces Document Oriented Model
+- organizes component of a webpage as a tree
+- provides API for languages like JS to access page elements
+
+web v1.0 --> static, consume
+
+web v2.0 --> dynamic, post content
+
+FLASH chews battery :'(
+
+HTML5 deliver audio/video within the markup language
+
+Paths used to draw arbitrary shapes, including circles and curves
+- a context can keep track of one path at a time
+- the path is not drawn until stroke() is called
+- a path is considered done when a new beginPath() is called
+
+dotconn.js
+
+Aim: Solidify CANVAS
+
+SVG codes :D
+
+<svg xmlns="http://www.w3.org/2000/svg">
+    SVG CODE HERE
+</svg>
+
+xmlns = xml name space -- attribute that identifies the namespace for the
+specific xml language being used, this is just an unique identifier for the xml,
+like c header files
+
+see 16-2-25.html
+
+Note that you can access svg in js
+
+document.createElementNS(<NAMESPACE IDENTIFIER>, <ELEMENT>);
+var c1 = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+c1.setAttribute("cx", "200");
+
+var pic = document.getElementById('svgid');
+pic.appendChild(c1);
+
+Aim: What's yer vector victor? and now!
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> SVG DEMO 2 </title>
+</head>
+<body>
+    <svg id="vimage" height="500" width="500" style="border: 1px solid;">
+</body>
+<script src="svg-interactive.js"></script>
+</html>
+
+
+D3 module
+
+select and selectAll are css query selectors, they both return an array of
+selections
+
+However, you can set values dynamically:
+
+d3.selectAll('p')
+  .style("font-size", function() {
+      return Math.floor(Math.random() * 15) + 'px';
+  })
