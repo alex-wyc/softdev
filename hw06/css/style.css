@@ -1,0 +1,31 @@
+body {
+    background-color: #eeeeee;
+}
+
+.chart {
+    background-color: #dddddd;
+}
+
+.unallocated {
+    margin: 2px;
+    background-color: #ffcccc;
+    color: black;
+    font-size: 80%;
+    height: 30px;
+    padding: 10px;
+    text-align: right;
+}
+
+.allocated {
+    margin: 2px;
+    background-color: #ff6666;
+    color: black;
+    font-size: 80%;
+    height: 30px;
+    padding: 10px;
+    text-align: right;
+}
+
+.bar {
+    text-align: left;
+}
