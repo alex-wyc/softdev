@@ -6,26 +6,30 @@ body {
     background-color: #dddddd;
 }
 
-.unallocated {
-    margin: 2px;
+.runallocated {
     background-color: #ffcccc;
     color: black;
-    font-size: 80%;
-    height: 30px;
-    padding: 10px;
-    text-align: right;
 }
 
-.allocated {
-    margin: 2px;
-    background-color: #ff6666;
+.rallocated {
+    background-color: #bb1111;
+    color: white;
+}
+
+.dallocated {
+    background-color: #1111bb;
+    color: white;
+}
+
+.dunallocated {
+    background-color: #ccccff;
     color: black;
-    font-size: 80%;
-    height: 30px;
-    padding: 10px;
-    text-align: right;
 }
 
 .bar {
-    text-align: left;
+    margin: 2px;
+    font-size: 60%;
+    height: 30px;
+    padding: 10px;
+    text-align: right;
 }
