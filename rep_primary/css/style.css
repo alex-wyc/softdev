@@ -1,0 +1,19 @@
+body {
+    background-color: #eeeeee;
+}
+
+#chart {
+    border: solid;
+}
+
+#test {
+    color: #ff6611; // trump
+    background-color: #b11; // Cruz
+    color: #ff1a1a; // rubio
+    color: #ff8080; // kasic
+    color: #ff6666; // unalloc
+}
+
+#chart {
+    background-color: white;
+}
