@@ -27,9 +27,9 @@ def is_valid_pass(password):
     num_validation = sum([1 if l in numbers else 0 for l in password]) > 0
     return lower_validation and upper_validation and num_validation
 
-print is_valid_pass('1234') 
-print is_valid_pass('127as')
-print is_valid_pass('abCD1')
+#print is_valid_pass('1234') 
+#print is_valid_pass('127as')
+#print is_valid_pass('abCD1')
 
 def rate_password(password):
     """
@@ -70,3 +70,5 @@ def rate_password(password):
         len_score = 0
 
     return lower_score + upper_score + sp_score + num_score + len_score
+
+print rate_password(password)
