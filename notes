@@ -119,3 +119,16 @@ FLASK DECORATORS!!! I KNEW IT!!!
 @<decorator>
 def function():
     blah blah blah
+
+AIM: Decoration Day
+
+TAKEAWAY
+
+You can write fxns that transform fxns
+
+A python decorator is shorthand for calling a wrapper type function like
+doubler.
+
+A python decorator encapsulates a closure
+
+A python decorator allows you to transparently wrap functionality
